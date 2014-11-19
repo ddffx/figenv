@@ -19,7 +19,21 @@ Build the images app & service (mongodb)
 ```
 fig build
 ```
+`fig build` builds the app container with all dependencies, mongo container
+
+Create Sails app
+```
+fig run app sails new testapp
+```
+Install Sails Mongo adapter
+```
+fig run app ./install-sails-mongo.sh
+```
 Run the app
 ```
 fig up
+```
+Stop app
+```
+ctrl+c
 ```
