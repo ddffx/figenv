@@ -8,3 +8,18 @@ Develop a sailsjs app using:
 3. Fig
 4. SailsJS
 5. Mongo
+
+## Setup
+
+1. Install [boot2docker](http://boot2docker.io/)
+2. Install [Fig](http://www.fig.sh/)
+
+### Start development
+Build the images app & service (mongodb)
+```
+fig build
+```
+Run the app
+```
+fig up
+```
