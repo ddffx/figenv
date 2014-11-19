@@ -1,0 +1,15 @@
+--- 
+app:
+  build: "."
+  command: "./appstart.sh"
+  ports: 
+    - "1337:1337"
+    - "3001:3001"
+  volumes: 
+    - ".:/app"
+  links:
+    - mongodb
+mongodb: 
+  image: dockerfile/mongodb
+  ports: 
+    - "27017"
