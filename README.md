@@ -21,13 +21,13 @@ fig build
 ```
 `fig build` builds the app container with all dependencies, mongo container
 
-Create Sails app
+Create Sails app with a name of your choice
 ```
-fig run app sails new testapp
+fig run app ./create-sails-app.sh myapp
 ```
-Install Sails Mongo adapter
+Install Sails Mongo adapter in myapp (or your app name)
 ```
-fig run app ./install-sails-mongo.sh
+fig run app ./install-sails-mongo.sh myapp
 ```
 Run the app
 ```
