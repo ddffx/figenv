@@ -1,4 +1,4 @@
-# Developing app using Docker & Fig
+# Developing Webapp Using Docker & Fig
 A prototype (work in progress) of a development scaffold. 
 
 Develop a sailsjs app using:
@@ -14,8 +14,8 @@ Develop a sailsjs app using:
 1. Install [boot2docker](http://boot2docker.io/)
 2. Install [Fig](http://www.fig.sh/)
 
-### Start development
-Build the images app & service (mongodb)
+### Start Development
+Build the images app & service (mongodb) using `fig.yml` & `Dockerfile` in the source directory
 ```
 fig build
 ```
